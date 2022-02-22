@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="30" passed="29">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="361365" started-at="2022-02-21T21:47:22 EST" finished-at="2022-02-21T21:53:23 EST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="361365" started-at="2022-02-21T21:47:22 EST" finished-at="2022-02-21T21:53:23 EST">
+      <class name="WordGame.FoodsGame.FirstStepName">
+        <test-method status="PASS" signature="startGameWithA50CharName()[pri:0, instance:WordGame.FoodsGame.FirstStepName@5f3a4b84]" name="startGameWithA50CharName" duration-ms="24104" started-at="2022-02-21T21:47:22 EST" finished-at="2022-02-21T21:47:46 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startGameWithA50CharName -->
+        <test-method status="PASS" signature="startGameWithARegularName()[pri:0, instance:WordGame.FoodsGame.FirstStepName@5f3a4b84]" name="startGameWithARegularName" duration-ms="7190" started-at="2022-02-21T21:47:46 EST" finished-at="2022-02-21T21:47:53 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startGameWithARegularName -->
+        <test-method status="PASS" signature="startGameWithAnEmptyName()[pri:0, instance:WordGame.FoodsGame.FirstStepName@5f3a4b84]" name="startGameWithAnEmptyName" duration-ms="5231" started-at="2022-02-21T21:47:53 EST" finished-at="2022-02-21T21:47:58 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startGameWithAnEmptyName -->
+        <test-method status="PASS" signature="startGameWithMoreThan50CharName()[pri:0, instance:WordGame.FoodsGame.FirstStepName@5f3a4b84]" name="startGameWithMoreThan50CharName" duration-ms="7523" started-at="2022-02-21T21:47:58 EST" finished-at="2022-02-21T21:48:06 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startGameWithMoreThan50CharName -->
+      </class> <!-- WordGame.FoodsGame.FirstStepName -->
+      <class name="WordGame.BooksGame.BooksGamePlay">
+        <test-method status="PASS" signature="allCorrectLetters()[pri:0, instance:WordGame.BooksGame.BooksGamePlay@670b40af]" name="allCorrectLetters" duration-ms="14912" started-at="2022-02-21T21:49:14 EST" finished-at="2022-02-21T21:49:29 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- allCorrectLetters -->
+        <test-method status="PASS" signature="allWrongLetters()[pri:0, instance:WordGame.BooksGame.BooksGamePlay@670b40af]" name="allWrongLetters" duration-ms="18379" started-at="2022-02-21T21:49:29 EST" finished-at="2022-02-21T21:49:47 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- allWrongLetters -->
+        <test-method status="PASS" signature="mixedLettersLose()[pri:0, instance:WordGame.BooksGame.BooksGamePlay@670b40af]" name="mixedLettersLose" duration-ms="23587" started-at="2022-02-21T21:49:47 EST" finished-at="2022-02-21T21:50:11 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mixedLettersLose -->
+        <test-method status="PASS" signature="mixedLettersWin()[pri:0, instance:WordGame.BooksGame.BooksGamePlay@670b40af]" name="mixedLettersWin" duration-ms="13228" started-at="2022-02-21T21:50:11 EST" finished-at="2022-02-21T21:50:24 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mixedLettersWin -->
+        <test-method status="PASS" signature="startGameAndRestart()[pri:0, instance:WordGame.BooksGame.BooksGamePlay@670b40af]" name="startGameAndRestart" duration-ms="7186" started-at="2022-02-21T21:50:24 EST" finished-at="2022-02-21T21:50:31 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startGameAndRestart -->
+      </class> <!-- WordGame.BooksGame.BooksGamePlay -->
+      <class name="WordGame.PlacesGame.PlacesGamePlay">
+        <test-method status="PASS" signature="allCorrectLetters()[pri:0, instance:WordGame.PlacesGame.PlacesGamePlay@44c8afef]" name="allCorrectLetters" duration-ms="9142" started-at="2022-02-21T21:51:32 EST" finished-at="2022-02-21T21:51:42 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- allCorrectLetters -->
+        <test-method status="PASS" signature="allWrongLetters()[pri:0, instance:WordGame.PlacesGame.PlacesGamePlay@44c8afef]" name="allWrongLetters" duration-ms="15133" started-at="2022-02-21T21:51:42 EST" finished-at="2022-02-21T21:51:57 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- allWrongLetters -->
+        <test-method status="PASS" signature="mixedLettersLose()[pri:0, instance:WordGame.PlacesGame.PlacesGamePlay@44c8afef]" name="mixedLettersLose" duration-ms="18919" started-at="2022-02-21T21:51:57 EST" finished-at="2022-02-21T21:52:16 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mixedLettersLose -->
+        <test-method status="PASS" signature="mixedLettersWin()[pri:0, instance:WordGame.PlacesGame.PlacesGamePlay@44c8afef]" name="mixedLettersWin" duration-ms="9340" started-at="2022-02-21T21:52:16 EST" finished-at="2022-02-21T21:52:25 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mixedLettersWin -->
+        <test-method status="PASS" signature="startGameAndRestart()[pri:0, instance:WordGame.PlacesGame.PlacesGamePlay@44c8afef]" name="startGameAndRestart" duration-ms="4941" started-at="2022-02-21T21:52:25 EST" finished-at="2022-02-21T21:52:30 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startGameAndRestart -->
+      </class> <!-- WordGame.PlacesGame.PlacesGamePlay -->
+      <class name="WordGame.TVShowsGame.TVShowsGamePlay">
+        <test-method status="PASS" signature="allCorrectLetters()[pri:0, instance:WordGame.TVShowsGame.TVShowsGamePlay@7b69c6ba]" name="allCorrectLetters" duration-ms="6762" started-at="2022-02-21T21:52:30 EST" finished-at="2022-02-21T21:52:37 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- allCorrectLetters -->
+        <test-method status="PASS" signature="allWrongLetters()[pri:0, instance:WordGame.TVShowsGame.TVShowsGamePlay@7b69c6ba]" name="allWrongLetters" duration-ms="15394" started-at="2022-02-21T21:52:37 EST" finished-at="2022-02-21T21:52:52 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- allWrongLetters -->
+        <test-method status="PASS" signature="mixedLettersLose()[pri:0, instance:WordGame.TVShowsGame.TVShowsGamePlay@7b69c6ba]" name="mixedLettersLose" duration-ms="18220" started-at="2022-02-21T21:52:52 EST" finished-at="2022-02-21T21:53:10 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mixedLettersLose -->
+        <test-method status="PASS" signature="mixedLettersWin()[pri:0, instance:WordGame.TVShowsGame.TVShowsGamePlay@7b69c6ba]" name="mixedLettersWin" duration-ms="7730" started-at="2022-02-21T21:53:10 EST" finished-at="2022-02-21T21:53:18 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mixedLettersWin -->
+        <test-method status="PASS" signature="startGameAndRestart()[pri:0, instance:WordGame.TVShowsGame.TVShowsGamePlay@7b69c6ba]" name="startGameAndRestart" duration-ms="4891" started-at="2022-02-21T21:53:18 EST" finished-at="2022-02-21T21:53:23 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startGameAndRestart -->
+      </class> <!-- WordGame.TVShowsGame.TVShowsGamePlay -->
+      <class name="WordGame.FoodsGame.FoodsGamePlay">
+        <test-method status="PASS" signature="allCorrectLetters()[pri:0, instance:WordGame.FoodsGame.FoodsGamePlay@27f723]" name="allCorrectLetters" duration-ms="9101" started-at="2022-02-21T21:48:06 EST" finished-at="2022-02-21T21:48:15 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- allCorrectLetters -->
+        <test-method status="PASS" signature="allWrongLetters()[pri:0, instance:WordGame.FoodsGame.FoodsGamePlay@27f723]" name="allWrongLetters" duration-ms="16340" started-at="2022-02-21T21:48:15 EST" finished-at="2022-02-21T21:48:31 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- allWrongLetters -->
+        <test-method status="PASS" signature="mixedLettersLose()[pri:0, instance:WordGame.FoodsGame.FoodsGamePlay@27f723]" name="mixedLettersLose" duration-ms="24050" started-at="2022-02-21T21:48:31 EST" finished-at="2022-02-21T21:48:55 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mixedLettersLose -->
+        <test-method status="PASS" signature="mixedLettersWin()[pri:0, instance:WordGame.FoodsGame.FoodsGamePlay@27f723]" name="mixedLettersWin" duration-ms="9750" started-at="2022-02-21T21:48:55 EST" finished-at="2022-02-21T21:49:05 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mixedLettersWin -->
+        <test-method status="PASS" signature="startGameAndRestart()[pri:0, instance:WordGame.FoodsGame.FoodsGamePlay@27f723]" name="startGameAndRestart" duration-ms="8937" started-at="2022-02-21T21:49:05 EST" finished-at="2022-02-21T21:49:14 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startGameAndRestart -->
+      </class> <!-- WordGame.FoodsGame.FoodsGamePlay -->
+      <class name="WordGame.MoviesGame.MoviesGamePlay">
+        <test-method status="PASS" signature="allCorrectLetters()[pri:0, instance:WordGame.MoviesGame.MoviesGamePlay@4923ab24]" name="allCorrectLetters" duration-ms="9179" started-at="2022-02-21T21:50:31 EST" finished-at="2022-02-21T21:50:40 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- allCorrectLetters -->
+        <test-method status="PASS" signature="allWrongLetters()[pri:0, instance:WordGame.MoviesGame.MoviesGamePlay@4923ab24]" name="allWrongLetters" duration-ms="15679" started-at="2022-02-21T21:50:40 EST" finished-at="2022-02-21T21:50:56 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- allWrongLetters -->
+        <test-method status="PASS" signature="mixedLettersLose()[pri:0, instance:WordGame.MoviesGame.MoviesGamePlay@4923ab24]" name="mixedLettersLose" duration-ms="19756" started-at="2022-02-21T21:50:56 EST" finished-at="2022-02-21T21:51:16 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mixedLettersLose -->
+        <test-method status="PASS" signature="mixedLettersWin()[pri:0, instance:WordGame.MoviesGame.MoviesGamePlay@4923ab24]" name="mixedLettersWin" duration-ms="10140" started-at="2022-02-21T21:51:16 EST" finished-at="2022-02-21T21:51:26 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mixedLettersWin -->
+        <test-method status="PASS" signature="startGameAndRestart()[pri:0, instance:WordGame.MoviesGame.MoviesGamePlay@4923ab24]" name="startGameAndRestart" duration-ms="6503" started-at="2022-02-21T21:51:26 EST" finished-at="2022-02-21T21:51:32 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startGameAndRestart -->
+      </class> <!-- WordGame.MoviesGame.MoviesGamePlay -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

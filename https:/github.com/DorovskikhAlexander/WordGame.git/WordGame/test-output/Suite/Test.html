@@ -1,0 +1,224 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>29/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Feb 21 21:47:22 EST 2022</td>
+</tr>
+<tr><td>Total time:</td><td>361 seconds (361365 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='WordGame.FoodsGame.FoodsGamePlay.allCorrectLetters()'><b>allCorrectLetters</b><br>Test class: WordGame.FoodsGame.FoodsGamePlay</td>
+<td></td>
+<td>9</td>
+<td>WordGame.FoodsGame.FoodsGamePlay@27f723</td></tr>
+<tr>
+<td title='WordGame.BooksGame.BooksGamePlay.allCorrectLetters()'><b>allCorrectLetters</b><br>Test class: WordGame.BooksGame.BooksGamePlay</td>
+<td></td>
+<td>14</td>
+<td>WordGame.BooksGame.BooksGamePlay@670b40af</td></tr>
+<tr>
+<td title='WordGame.MoviesGame.MoviesGamePlay.allCorrectLetters()'><b>allCorrectLetters</b><br>Test class: WordGame.MoviesGame.MoviesGamePlay</td>
+<td></td>
+<td>9</td>
+<td>WordGame.MoviesGame.MoviesGamePlay@4923ab24</td></tr>
+<tr>
+<td title='WordGame.PlacesGame.PlacesGamePlay.allCorrectLetters()'><b>allCorrectLetters</b><br>Test class: WordGame.PlacesGame.PlacesGamePlay</td>
+<td></td>
+<td>9</td>
+<td>WordGame.PlacesGame.PlacesGamePlay@44c8afef</td></tr>
+<tr>
+<td title='WordGame.TVShowsGame.TVShowsGamePlay.allCorrectLetters()'><b>allCorrectLetters</b><br>Test class: WordGame.TVShowsGame.TVShowsGamePlay</td>
+<td></td>
+<td>6</td>
+<td>WordGame.TVShowsGame.TVShowsGamePlay@7b69c6ba</td></tr>
+<tr>
+<td title='WordGame.FoodsGame.FoodsGamePlay.allWrongLetters()'><b>allWrongLetters</b><br>Test class: WordGame.FoodsGame.FoodsGamePlay</td>
+<td></td>
+<td>16</td>
+<td>WordGame.FoodsGame.FoodsGamePlay@27f723</td></tr>
+<tr>
+<td title='WordGame.BooksGame.BooksGamePlay.allWrongLetters()'><b>allWrongLetters</b><br>Test class: WordGame.BooksGame.BooksGamePlay</td>
+<td></td>
+<td>18</td>
+<td>WordGame.BooksGame.BooksGamePlay@670b40af</td></tr>
+<tr>
+<td title='WordGame.MoviesGame.MoviesGamePlay.allWrongLetters()'><b>allWrongLetters</b><br>Test class: WordGame.MoviesGame.MoviesGamePlay</td>
+<td></td>
+<td>15</td>
+<td>WordGame.MoviesGame.MoviesGamePlay@4923ab24</td></tr>
+<tr>
+<td title='WordGame.PlacesGame.PlacesGamePlay.allWrongLetters()'><b>allWrongLetters</b><br>Test class: WordGame.PlacesGame.PlacesGamePlay</td>
+<td></td>
+<td>15</td>
+<td>WordGame.PlacesGame.PlacesGamePlay@44c8afef</td></tr>
+<tr>
+<td title='WordGame.TVShowsGame.TVShowsGamePlay.allWrongLetters()'><b>allWrongLetters</b><br>Test class: WordGame.TVShowsGame.TVShowsGamePlay</td>
+<td></td>
+<td>15</td>
+<td>WordGame.TVShowsGame.TVShowsGamePlay@7b69c6ba</td></tr>
+<tr>
+<td title='WordGame.FoodsGame.FoodsGamePlay.mixedLettersLose()'><b>mixedLettersLose</b><br>Test class: WordGame.FoodsGame.FoodsGamePlay</td>
+<td></td>
+<td>24</td>
+<td>WordGame.FoodsGame.FoodsGamePlay@27f723</td></tr>
+<tr>
+<td title='WordGame.BooksGame.BooksGamePlay.mixedLettersLose()'><b>mixedLettersLose</b><br>Test class: WordGame.BooksGame.BooksGamePlay</td>
+<td></td>
+<td>23</td>
+<td>WordGame.BooksGame.BooksGamePlay@670b40af</td></tr>
+<tr>
+<td title='WordGame.MoviesGame.MoviesGamePlay.mixedLettersLose()'><b>mixedLettersLose</b><br>Test class: WordGame.MoviesGame.MoviesGamePlay</td>
+<td></td>
+<td>19</td>
+<td>WordGame.MoviesGame.MoviesGamePlay@4923ab24</td></tr>
+<tr>
+<td title='WordGame.PlacesGame.PlacesGamePlay.mixedLettersLose()'><b>mixedLettersLose</b><br>Test class: WordGame.PlacesGame.PlacesGamePlay</td>
+<td></td>
+<td>18</td>
+<td>WordGame.PlacesGame.PlacesGamePlay@44c8afef</td></tr>
+<tr>
+<td title='WordGame.TVShowsGame.TVShowsGamePlay.mixedLettersLose()'><b>mixedLettersLose</b><br>Test class: WordGame.TVShowsGame.TVShowsGamePlay</td>
+<td></td>
+<td>18</td>
+<td>WordGame.TVShowsGame.TVShowsGamePlay@7b69c6ba</td></tr>
+<tr>
+<td title='WordGame.FoodsGame.FoodsGamePlay.mixedLettersWin()'><b>mixedLettersWin</b><br>Test class: WordGame.FoodsGame.FoodsGamePlay</td>
+<td></td>
+<td>9</td>
+<td>WordGame.FoodsGame.FoodsGamePlay@27f723</td></tr>
+<tr>
+<td title='WordGame.BooksGame.BooksGamePlay.mixedLettersWin()'><b>mixedLettersWin</b><br>Test class: WordGame.BooksGame.BooksGamePlay</td>
+<td></td>
+<td>13</td>
+<td>WordGame.BooksGame.BooksGamePlay@670b40af</td></tr>
+<tr>
+<td title='WordGame.MoviesGame.MoviesGamePlay.mixedLettersWin()'><b>mixedLettersWin</b><br>Test class: WordGame.MoviesGame.MoviesGamePlay</td>
+<td></td>
+<td>10</td>
+<td>WordGame.MoviesGame.MoviesGamePlay@4923ab24</td></tr>
+<tr>
+<td title='WordGame.PlacesGame.PlacesGamePlay.mixedLettersWin()'><b>mixedLettersWin</b><br>Test class: WordGame.PlacesGame.PlacesGamePlay</td>
+<td></td>
+<td>9</td>
+<td>WordGame.PlacesGame.PlacesGamePlay@44c8afef</td></tr>
+<tr>
+<td title='WordGame.TVShowsGame.TVShowsGamePlay.mixedLettersWin()'><b>mixedLettersWin</b><br>Test class: WordGame.TVShowsGame.TVShowsGamePlay</td>
+<td></td>
+<td>7</td>
+<td>WordGame.TVShowsGame.TVShowsGamePlay@7b69c6ba</td></tr>
+<tr>
+<td title='WordGame.FoodsGame.FoodsGamePlay.startGameAndRestart()'><b>startGameAndRestart</b><br>Test class: WordGame.FoodsGame.FoodsGamePlay</td>
+<td></td>
+<td>8</td>
+<td>WordGame.FoodsGame.FoodsGamePlay@27f723</td></tr>
+<tr>
+<td title='WordGame.BooksGame.BooksGamePlay.startGameAndRestart()'><b>startGameAndRestart</b><br>Test class: WordGame.BooksGame.BooksGamePlay</td>
+<td></td>
+<td>7</td>
+<td>WordGame.BooksGame.BooksGamePlay@670b40af</td></tr>
+<tr>
+<td title='WordGame.MoviesGame.MoviesGamePlay.startGameAndRestart()'><b>startGameAndRestart</b><br>Test class: WordGame.MoviesGame.MoviesGamePlay</td>
+<td></td>
+<td>6</td>
+<td>WordGame.MoviesGame.MoviesGamePlay@4923ab24</td></tr>
+<tr>
+<td title='WordGame.PlacesGame.PlacesGamePlay.startGameAndRestart()'><b>startGameAndRestart</b><br>Test class: WordGame.PlacesGame.PlacesGamePlay</td>
+<td></td>
+<td>4</td>
+<td>WordGame.PlacesGame.PlacesGamePlay@44c8afef</td></tr>
+<tr>
+<td title='WordGame.TVShowsGame.TVShowsGamePlay.startGameAndRestart()'><b>startGameAndRestart</b><br>Test class: WordGame.TVShowsGame.TVShowsGamePlay</td>
+<td></td>
+<td>4</td>
+<td>WordGame.TVShowsGame.TVShowsGamePlay@7b69c6ba</td></tr>
+<tr>
+<td title='WordGame.FoodsGame.FirstStepName.startGameWithA50CharName()'><b>startGameWithA50CharName</b><br>Test class: WordGame.FoodsGame.FirstStepName</td>
+<td></td>
+<td>24</td>
+<td>WordGame.FoodsGame.FirstStepName@5f3a4b84</td></tr>
+<tr>
+<td title='WordGame.FoodsGame.FirstStepName.startGameWithARegularName()'><b>startGameWithARegularName</b><br>Test class: WordGame.FoodsGame.FirstStepName</td>
+<td></td>
+<td>7</td>
+<td>WordGame.FoodsGame.FirstStepName@5f3a4b84</td></tr>
+<tr>
+<td title='WordGame.FoodsGame.FirstStepName.startGameWithAnEmptyName()'><b>startGameWithAnEmptyName</b><br>Test class: WordGame.FoodsGame.FirstStepName</td>
+<td></td>
+<td>5</td>
+<td>WordGame.FoodsGame.FirstStepName@5f3a4b84</td></tr>
+<tr>
+<td title='WordGame.FoodsGame.FirstStepName.startGameWithMoreThan50CharName()'><b>startGameWithMoreThan50CharName</b><br>Test class: WordGame.FoodsGame.FirstStepName</td>
+<td></td>
+<td>7</td>
+<td>WordGame.FoodsGame.FirstStepName@5f3a4b84</td></tr>
+</table><p>
+</body>
+</html>

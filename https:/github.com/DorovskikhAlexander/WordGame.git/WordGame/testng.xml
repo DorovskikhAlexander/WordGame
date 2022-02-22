@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+ 		<class name="WordGame.FoodsGame.FirstStepName"/>
+    	<class name="WordGame.FoodsGame.FoodsGamePlay"/>
+    	<class name="WordGame.AnimalsGame.AnimalsGamePlay"/>
+    	<class name="WordGame.BooksGame.BooksGamePlay"/>
+    	<class name="WordGame.MoviesGame.MoviesGamePlay"/>
+    	<class name="WordGame.PlacesGame.PlacesGamePlay"/>
+    	<class name="WordGame.TVShowsGame.TVShowsGamePlay"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

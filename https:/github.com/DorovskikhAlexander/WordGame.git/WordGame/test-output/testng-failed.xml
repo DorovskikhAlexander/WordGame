@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="WordGame.MoviesGame.MoviesGamePlay">
+        <methods>
+          <include name="allCorrectLetters"/>
+          <include name="mixedLettersLose"/>
+          <include name="allWrongLetters"/>
+          <include name="startGameAndRestart"/>
+          <include name="mixedLettersWin"/>
+        </methods>
+      </class> <!-- WordGame.MoviesGame.MoviesGamePlay -->
+      <class name="WordGame.FoodsGame.FoodsGamePlay">
+        <methods>
+          <include name="startGameAndRestart"/>
+          <include name="mixedLettersWin"/>
+        </methods>
+      </class> <!-- WordGame.FoodsGame.FoodsGamePlay -->
+      <class name="WordGame.TVShowsGame.TVShowsGamePlay">
+        <methods>
+          <include name="allCorrectLetters"/>
+          <include name="mixedLettersLose"/>
+          <include name="startGameAndRestart"/>
+          <include name="mixedLettersWin"/>
+          <include name="allWrongLetters"/>
+        </methods>
+      </class> <!-- WordGame.TVShowsGame.TVShowsGamePlay -->
+      <class name="WordGame.BooksGame.BooksGamePlay">
+        <methods>
+          <include name="mixedLettersLose"/>
+          <include name="allWrongLetters"/>
+          <include name="mixedLettersWin"/>
+          <include name="startGameAndRestart"/>
+          <include name="allCorrectLetters"/>
+        </methods>
+      </class> <!-- WordGame.BooksGame.BooksGamePlay -->
+      <class name="WordGame.PlacesGame.PlacesGamePlay">
+        <methods>
+          <include name="allCorrectLetters"/>
+          <include name="mixedLettersLose"/>
+          <include name="startGameAndRestart"/>
+          <include name="mixedLettersWin"/>
+          <include name="allWrongLetters"/>
+        </methods>
+      </class> <!-- WordGame.PlacesGame.PlacesGamePlay -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
